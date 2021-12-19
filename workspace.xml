@@ -26,8 +26,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/templates" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -36,7 +35,7 @@
       <recent name="D:\Users\Creative\PycharmProjects\socialDistancingApp\src\static" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.webservice(1)">
+  <component name="RunManager" selected="Python.webcode">
     <configuration name="webcode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="socialDistancingApp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,8 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.webservice(1)" />
         <item itemvalue="Python.webcode" />
+        <item itemvalue="Python.webservice(1)" />
       </list>
     </recent_temporary>
   </component>
@@ -98,29 +97,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1345" height="212" key="GridCell.Tab.0.bottom" timestamp="1613822790674">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604340968134">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1613822790674" />
-    <state width="1345" height="212" key="GridCell.Tab.0.center" timestamp="1613822790674">
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604340968134" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1611324947010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1613822790674" />
-    <state width="1345" height="212" key="GridCell.Tab.0.left" timestamp="1613822790674">
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1611324947010" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1611324947010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1613822790674" />
-    <state width="1345" height="212" key="GridCell.Tab.0.right" timestamp="1613822790674">
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1611324947010" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1611324947010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="212" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1613822790674" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1611326872053">
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1611324947010" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1611324947010">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1611326872053" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1611326867765">
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1611324947010" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1606471589482">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1611326867765" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1606471589482" />
   </component>
 </project>
