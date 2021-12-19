@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Edist"
+rootProject.name='My ApplicationSA'
