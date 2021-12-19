@@ -1,0 +1,37 @@
+{% extends 'index.html' %}
+{% block body %}
+<form action="/reg" method="post">
+    <table border="0">
+        <tr><th>User registration</th></tr>
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" name="fname"></td>
+        </tr>
+        <tr>
+            <td>middle Name</td>
+            <td><input type="text" name="mname"></td>
+        </tr>
+        <tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" name="lname"></td>
+        </tr>
+        <tr>
+        <td>Phone no</td>
+            <td><input type="number" name="phno"></td>
+        <tr>
+            <td>E mail</td>
+        <td><input type="" name="email"></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea name="add"></textarea>
+        </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="register"></td>
+        </tr>
+
+    </table>
+{% endblock %}

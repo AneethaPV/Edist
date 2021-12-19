@@ -1,0 +1,21 @@
+{% extends 'index_admin.html' %}
+{% block body %}
+<form action="" method="post">
+    <table border="1">
+        <tr>
+            <th>Date time</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th></th>
+        </tr>
+        {% for i in data %}
+        <tr>
+            <td>{{i[4]}}</td>
+            <td>{{i[2]}}</td>
+            <td>{{i[3]}}</td>
+            <td><a href="http://maps.google.com?q={{i[2]}},{{i[3]}}">View</a> </td>
+        </tr>
+        {% endfor %}
+    </table>
+</form>
+{% endblock %}

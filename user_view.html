@@ -1,0 +1,26 @@
+{% extends 'index_admin.html' %}
+{% block body %}
+<form action="" method="post">
+    <table border="1" >
+        <tr>
+            <td>Name</td>
+            <td>Phone number</td>
+            <td>Email</td>
+            <td>Address</td>
+        </tr>
+
+        {% for i in val%}
+
+        <tr>
+            <td>{{i[2]}} {{i[3]}} {{i[4]}}</td>
+            <td>{{i[5]}}</td>
+            <td>{{i[6]}}</td>
+            <td>{{i[7]}}</td>
+        </tr>
+
+        {% endfor %}
+
+    </table>
+
+</form>
+{% endblock %}}

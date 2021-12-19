@@ -1,0 +1,29 @@
+{% extends 'index_admin.html' %}
+{% block body %}
+<form action="/add_containment_zone1" method="post">
+    <table>
+        <tr>
+            <td>place name</td>
+            <td><input type="text" name="place"></td>
+        </tr>
+        <tr>
+            <td>panchayath/corporation</td>
+            <td><input type="text" name="panchayath"></td>
+        </tr>
+        <tr>
+            <td>latitude</td>
+            <td><input type="text" name="lat"></td>
+        </tr>
+        <tr>
+            <td>longitude</td>
+            <td><input type="text" name="lon"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="save"></td>
+        </tr>
+    </table>
+
+</form>
+
+{% endblock %}

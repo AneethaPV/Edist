@@ -1,0 +1,23 @@
+{% extends 'index_admin.html' %}
+{% block body %}
+<h1>ROOTMAP</h1>
+<form action="/view_rootmap" method="post">
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>phone no</th>
+            <th>E mail</th>
+            <th></th>
+        </tr>
+        {% for i in data %}
+        <tr>
+            <td> {{i[2]}} {{i[3]}} {{i[4]}}</td>
+            <td>{{i[5]}}</td>
+            <td>{{i[6]}}</td>
+            <td><a href="/view_rootmap1?uid={{i[0]}}">View</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+</form>
+
+{% endblock %}

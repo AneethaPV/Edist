@@ -1,0 +1,29 @@
+{% extends 'index_admin.html' %}
+{% block body %}
+<form action="/add_news#one" method="post">
+    <table border="1">
+        <tr>
+            <td>News</td>
+            <td>Description</td>
+            <td>Image</td>
+            <td>date</td>
+
+        </tr>
+
+        {% for i in data %}
+
+        <tr>
+            <td>{{i[1]}}</td>
+            <td>{{i[2]}}</td>
+            <td><img src="../static/news_image/{{i[3]}}" width="150" height="150"></td>
+            <td>{{i[4]}} </td>
+            <td><a href="/delete_news?nid={{i[0]}}">Delete</a></td>
+        </tr>
+
+        {% endfor %}
+
+    </table>
+    <input type="submit" value="Add new">
+</form>
+
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends 'index_admin.html' %}
+{% block body %}
+
+<form action="/response1" method="post">
+    <h1>FEEDBACK</h1>
+    <table border="1">
+        <tr>
+            <th>Name</th><td>{{i[5]}} {{i[6]}} {{i[7]}}</td></tr>
+        <tr><th>Feedback</th>
+            <td>{{i[2]}}</td></tr>
+        <tr> <th>Date</th>
+            <td>{{i[3]}}</td>
+        </tr>
+        <tr>
+            <th>Response</th>
+            <td><textarea name="response" >
+            </textarea></td>
+        </tr>
+        <tr><th></th>
+            <td><input type="submit" value="respond">
+            <input type="hidden" name="fid" value="{{i[0]}}"></td>
+        </tr>
+    </table>
+</form>
+
+{% endblock %}
